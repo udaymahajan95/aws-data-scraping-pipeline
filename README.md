@@ -64,7 +64,7 @@ python scraper.py
 
 ---
 
-## 📊** Output**
+## 📊 Output
 
 - Raw data stored in S3
 - Processed data stored in DynamoDB
