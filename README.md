@@ -43,5 +43,63 @@ DynamoDB (Structured Data)
 
 ## 📂 Project Structure
 scraper.py
+books.json
+
+
+---
+
+## 💻 Setup Instructions
+
+**### 1. Install dependencies
+
+
+```pip install requests beautifulsoup4 boto3
+
+---
+
+### 2. Run scraper
+
+python scraper.py
+
+
+---
+
+## 📊** Output**
+
+- Raw data stored in S3
+- Processed data stored in DynamoDB
+
+---
+
+## 🔐 IAM Roles Used
+
+- S3 access for EC2
+- S3 read + DynamoDB write for Lambda
+- CloudWatch logging permissions
+
+---
+
+## 🚨 Challenges Faced
+
+- S3 bucket not found error
+- Lambda timeout issue
+- IAM permission errors
+- Debugging event triggers
+
+---
+
+## 🎯 Learning Outcomes
+
+- Hands-on experience with AWS services
+- Understanding event-driven architecture
+- Real-world debugging and troubleshooting
+- Cloud-based data pipeline design
+
+---
+
+## 👨‍💻 Author
+
+Uday Mahajan
+
 
 
